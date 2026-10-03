@@ -6,7 +6,7 @@ if (toggleMenu && mainNavigation) {
 
     toggleMenu.addEventListener("click", function () {
 
-        toggleMenu.classList.toggle("active");
+        toggleMenu.classList.toggle("is-active");
 
         mainNavigation.classList.toggle("open");
 
@@ -18,7 +18,7 @@ if (toggleMenu && mainNavigation) {
 
         link.addEventListener("click", function () {
 
-            toggleMenu.classList.remove("active");
+            toggleMenu.classList.remove("is-active");
 
             mainNavigation.classList.remove("open");
 
